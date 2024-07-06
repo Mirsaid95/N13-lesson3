@@ -1,0 +1,62 @@
+.header{
+    border-bottom: 1px solid rgba(94, 94, 94, 0.747);
+    &__nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__items{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:20px;
+    }
+
+    &__togl{
+        display: flex;
+        align-items: center;
+        width: 5%;
+        height: 50px;
+
+        .fa-list{
+            font-size: 26px;
+        }
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        :hover{
+            color: red;
+            transition: all 0.5s;
+        }
+
+    }
+
+    &__link{
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        color: black;
+        gap: 10px;
+
+        
+    }
+
+    &__call{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 600;
+        .fa-phone{
+            color: blue;
+        }
+    }
+
+
+}

@@ -1,0 +1,120 @@
+.deals{
+    margin-top: 80px;
+
+    &__items{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    &__title-list{
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title{
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+    &__link{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: black;
+        font-size: 16px;
+    }
+
+    &__cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-items: center;
+        gap: 10px;
+    }
+    &__image{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &__food-info{
+        width: 280px;
+        height: 180px;
+        background-color: whitesmoke;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        position: absolute;
+        left: 33px;
+        top: 220px; 
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+        transition: all 1.2s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+
+    &__box-title{
+        font-size: 18px;
+    }
+
+    &__box-list{
+        display: flex;
+        gap: 50px;
+        .fa-star{
+            color: gold;
+        }
+    }
+
+    &__list-by{
+        display: flex;
+        gap: 10px;
+        font-size: 16px;
+        color: #B6B6B6;
+    }
+    &__list-food{
+        color: green;
+    }
+
+    &__price-btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__price{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-weight: 600;
+        font-size: 18px;
+        color: #3BB77E;
+    }
+    &__sale{
+        font-size: 14px;
+        color: #ADADAD;
+        text-decoration: line-through;
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 16px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #F53E32;
+        color: white;
+    }
+
+
+}
